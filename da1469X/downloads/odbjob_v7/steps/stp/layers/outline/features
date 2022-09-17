@@ -1,0 +1,18 @@
+
+#
+#Units
+#
+U MM
+
+#
+#Feature symbol names
+#
+$0 r200
+
+#
+#Layer features
+#
+L 0 0 120 0 0 P 0
+L 120 0 120 90 0 P 0
+L 120 90 0 90 0 P 0
+L 0 90 0 0 0 P 0

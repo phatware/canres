@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2A5FD41A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A5FCD1A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.m */; };
+		0D2A5FD51A10BE190001DCAA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A5FCF1A10BE190001DCAA /* TPKeyboardAvoidingScrollView.m */; };
+		0D2A5FD61A10BE190001DCAA /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A5FD11A10BE190001DCAA /* TPKeyboardAvoidingTableView.m */; };
+		0D2A5FD71A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A5FD31A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		0D41E2911A03C1F8005ABC38 /* SPOTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41E2901A03C1F8005ABC38 /* SPOTAViewController.m */; };
+		0D41E2941A03C211005ABC38 /* SPOTAParamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41E2931A03C211005ABC38 /* SPOTAParamsViewController.m */; };
+		0D5D214F19FFCC8F001ED9E9 /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5D214E19FFCC8F001ED9E9 /* DeviceInfoViewController.m */; };
+		0D67614F1D74833D00B66311 /* APLSlideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D67614C1D74833D00B66311 /* APLSlideMenuSegue.m */; };
+		0D6761501D74833D00B66311 /* APLSlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D67614E1D74833D00B66311 /* APLSlideMenuViewController.m */; };
+		0D6761611D75815900B66311 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D67615E1D75815900B66311 /* MenuTableViewController.m */; };
+		0D6761621D75815900B66311 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6761601D75815900B66311 /* MenuViewController.m */; };
+		0D6761651D75835900B66311 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6761641D75835900B66311 /* MainNavigationController.m */; };
+		0D6761681D75880F00B66311 /* DeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6761671D75880F00B66311 /* DeviceTableViewCell.m */; };
+		0D67616B1D758BA200B66311 /* DeviceRangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D67616A1D758BA200B66311 /* DeviceRangeView.m */; };
+		0DA9CA941A07CF6500C51147 /* GenericParamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9CA931A07CF6500C51147 /* GenericParamsViewController.m */; };
+		0DC2AE0B19FAA47700468070 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2ADFB19FAA47700468070 /* AbstractActionSheetPicker.m */; };
+		0DC2AE0C19FAA47700468070 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2ADFD19FAA47700468070 /* ActionSheetCustomPicker.m */; };
+		0DC2AE0D19FAA47700468070 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2AE0019FAA47700468070 /* ActionSheetDatePicker.m */; };
+		0DC2AE0F19FAA47700468070 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2AE0419FAA47700468070 /* ActionSheetLocalePicker.m */; };
+		0DC2AE1019FAA47700468070 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2AE0619FAA47700468070 /* ActionSheetStringPicker.m */; };
+		0DC2AE1219FAA47700468070 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2AE0A19FAA47700468070 /* SWActionSheet.m */; };
+		0DCDAB4F1A433603009C38A8 /* GenericSUOTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDAB4E1A433603009C38A8 /* GenericSUOTAViewController.m */; };
+		0DE6BCD91D79A03C00224D47 /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6BCD61D79A03C00224D47 /* DisclaimerViewController.m */; };
+		0DE6BCDA1D79A03C00224D47 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6BCD81D79A03C00224D47 /* InfoViewController.m */; };
+		0DE6BCDD1D79AE2500224D47 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6BCDC1D79AE2500224D47 /* info.html */; };
+		0DE6BCDF1D79AE8A00224D47 /* logo-dialog-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6BCDE1D79AE8A00224D47 /* logo-dialog-blue.png */; };
+		0DE6BCED1D79B3DF00224D47 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6BCEB1D79B3DF00224D47 /* MBProgressHUD.m */; };
+		0DE6BCF01D79C19A00224D47 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6BCEF1D79C19A00224D47 /* SplashViewController.m */; };
+		0DEF373B19DBF171000AEFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF373A19DBF171000AEFEE /* main.m */; };
+		0DEF373E19DBF171000AEFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF373D19DBF171000AEFEE /* AppDelegate.m */; };
+		0DEF374419DBF171000AEFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DEF374219DBF171000AEFEE /* Main.storyboard */; };
+		0DEF374619DBF171000AEFEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DEF374519DBF171000AEFEE /* Images.xcassets */; };
+		0DEF375519DBF171000AEFEE /* SUOTATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF375419DBF171000AEFEE /* SUOTATests.m */; };
+		0DEF376219DBF732000AEFEE /* DeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF376119DBF732000AEFEE /* DeviceTableViewController.m */; };
+		0DEF376519DBF8C1000AEFEE /* FileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF376419DBF8C1000AEFEE /* FileTableViewController.m */; };
+		0DEF376819DD45E1000AEFEE /* SUOTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF376719DD45E1000AEFEE /* SUOTAViewController.m */; };
+		0DEF376B19DD5B45000AEFEE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEF376A19DD5B45000AEFEE /* CoreBluetooth.framework */; };
+		0DEF377219DE915E000AEFEE /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF376F19DE915E000AEFEE /* BluetoothManager.m */; };
+		0DEF377319DE915E000AEFEE /* GenericServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF377119DE915E000AEFEE /* GenericServiceManager.m */; };
+		0DEF377619DE9232000AEFEE /* DeviceStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF377519DE9232000AEFEE /* DeviceStorage.m */; };
+		0DEF377919DEA232000AEFEE /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF377819DEA232000AEFEE /* DeviceViewController.m */; };
+		0DEF377F19DEA790000AEFEE /* SUOTAServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF377E19DEA790000AEFEE /* SUOTAServiceManager.m */; };
+		0DEF378219DEF2C2000AEFEE /* ParameterStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF378119DEF2C2000AEFEE /* ParameterStorage.m */; };
+		0DEF37E319E7D3C3000AEFEE /* SUOTAParamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF37E219E7D3C3000AEFEE /* SUOTAParamsViewController.m */; };
+		14CFCBF2233388AE003AD7C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CFCBF0233388AE003AD7C7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEF374F19DBF171000AEFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DEF372D19DBF171000AEFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DEF373419DBF171000AEFEE;
+			remoteInfo = SUOTA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2A5FCC1A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		0D2A5FCD1A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		0D2A5FCE1A10BE190001DCAA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		0D2A5FCF1A10BE190001DCAA /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		0D2A5FD01A10BE190001DCAA /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		0D2A5FD11A10BE190001DCAA /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		0D2A5FD21A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		0D2A5FD31A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		0D41E28F1A03C1F8005ABC38 /* SPOTAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOTAViewController.h; sourceTree = "<group>"; };
+		0D41E2901A03C1F8005ABC38 /* SPOTAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOTAViewController.m; sourceTree = "<group>"; };
+		0D41E2921A03C211005ABC38 /* SPOTAParamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOTAParamsViewController.h; sourceTree = "<group>"; };
+		0D41E2931A03C211005ABC38 /* SPOTAParamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOTAParamsViewController.m; sourceTree = "<group>"; };
+		0D5D214D19FFCC8F001ED9E9 /* DeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		0D5D214E19FFCC8F001ED9E9 /* DeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		0D67614B1D74833D00B66311 /* APLSlideMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSlideMenuSegue.h; sourceTree = "<group>"; };
+		0D67614C1D74833D00B66311 /* APLSlideMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSlideMenuSegue.m; sourceTree = "<group>"; };
+		0D67614D1D74833D00B66311 /* APLSlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSlideMenuViewController.h; sourceTree = "<group>"; };
+		0D67614E1D74833D00B66311 /* APLSlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSlideMenuViewController.m; sourceTree = "<group>"; };
+		0D67615D1D75815900B66311 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		0D67615E1D75815900B66311 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		0D67615F1D75815900B66311 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0D6761601D75815900B66311 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0D6761631D75835900B66311 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		0D6761641D75835900B66311 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		0D6761661D75880F00B66311 /* DeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewCell.h; sourceTree = "<group>"; };
+		0D6761671D75880F00B66311 /* DeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewCell.m; sourceTree = "<group>"; };
+		0D6761691D758BA200B66311 /* DeviceRangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRangeView.h; sourceTree = "<group>"; };
+		0D67616A1D758BA200B66311 /* DeviceRangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceRangeView.m; sourceTree = "<group>"; };
+		0DA9CA921A07CF6500C51147 /* GenericParamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericParamsViewController.h; sourceTree = "<group>"; };
+		0DA9CA931A07CF6500C51147 /* GenericParamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericParamsViewController.m; sourceTree = "<group>"; };
+		0DC2ADFA19FAA47700468070 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		0DC2ADFB19FAA47700468070 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		0DC2ADFC19FAA47700468070 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		0DC2ADFD19FAA47700468070 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		0DC2ADFE19FAA47700468070 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		0DC2ADFF19FAA47700468070 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		0DC2AE0019FAA47700468070 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		0DC2AE0319FAA47700468070 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		0DC2AE0419FAA47700468070 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		0DC2AE0519FAA47700468070 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		0DC2AE0619FAA47700468070 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		0DC2AE0919FAA47700468070 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		0DC2AE0A19FAA47700468070 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		0DCDAB4D1A433603009C38A8 /* GenericSUOTAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericSUOTAViewController.h; sourceTree = "<group>"; };
+		0DCDAB4E1A433603009C38A8 /* GenericSUOTAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericSUOTAViewController.m; sourceTree = "<group>"; };
+		0DE6BCD51D79A03C00224D47 /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclaimerViewController.h; sourceTree = "<group>"; };
+		0DE6BCD61D79A03C00224D47 /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclaimerViewController.m; sourceTree = "<group>"; };
+		0DE6BCD71D79A03C00224D47 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		0DE6BCD81D79A03C00224D47 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		0DE6BCDC1D79AE2500224D47 /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		0DE6BCDE1D79AE8A00224D47 /* logo-dialog-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-dialog-blue.png"; sourceTree = "<group>"; };
+		0DE6BCE91D79B3DF00224D47 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = MBProgressHUD/LICENSE; sourceTree = "<group>"; };
+		0DE6BCEA1D79B3DF00224D47 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		0DE6BCEB1D79B3DF00224D47 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		0DE6BCEE1D79C19A00224D47 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		0DE6BCEF1D79C19A00224D47 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		0DEF373519DBF171000AEFEE /* SUOTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUOTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEF373919DBF171000AEFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEF373A19DBF171000AEFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DEF373C19DBF171000AEFEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DEF373D19DBF171000AEFEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DEF374319DBF171000AEFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DEF374519DBF171000AEFEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0DEF374E19DBF171000AEFEE /* SUOTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUOTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEF375319DBF171000AEFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEF375419DBF171000AEFEE /* SUOTATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUOTATests.m; sourceTree = "<group>"; };
+		0DEF376019DBF732000AEFEE /* DeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewController.h; sourceTree = "<group>"; };
+		0DEF376119DBF732000AEFEE /* DeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewController.m; sourceTree = "<group>"; };
+		0DEF376319DBF8C1000AEFEE /* FileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTableViewController.h; sourceTree = "<group>"; };
+		0DEF376419DBF8C1000AEFEE /* FileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTableViewController.m; sourceTree = "<group>"; };
+		0DEF376619DD45E1000AEFEE /* SUOTAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOTAViewController.h; sourceTree = "<group>"; };
+		0DEF376719DD45E1000AEFEE /* SUOTAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOTAViewController.m; sourceTree = "<group>"; };
+		0DEF376919DD536B000AEFEE /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		0DEF376A19DD5B45000AEFEE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0DEF376E19DE915E000AEFEE /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		0DEF376F19DE915E000AEFEE /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		0DEF377019DE915E000AEFEE /* GenericServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericServiceManager.h; sourceTree = "<group>"; };
+		0DEF377119DE915E000AEFEE /* GenericServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericServiceManager.m; sourceTree = "<group>"; };
+		0DEF377419DE9232000AEFEE /* DeviceStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStorage.h; sourceTree = "<group>"; };
+		0DEF377519DE9232000AEFEE /* DeviceStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceStorage.m; sourceTree = "<group>"; };
+		0DEF377719DEA232000AEFEE /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		0DEF377819DEA232000AEFEE /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		0DEF377D19DEA790000AEFEE /* SUOTAServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOTAServiceManager.h; sourceTree = "<group>"; };
+		0DEF377E19DEA790000AEFEE /* SUOTAServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOTAServiceManager.m; sourceTree = "<group>"; };
+		0DEF378019DEF2C2000AEFEE /* ParameterStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterStorage.h; sourceTree = "<group>"; };
+		0DEF378119DEF2C2000AEFEE /* ParameterStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterStorage.m; sourceTree = "<group>"; };
+		0DEF37E119E7D3C3000AEFEE /* SUOTAParamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOTAParamsViewController.h; sourceTree = "<group>"; };
+		0DEF37E219E7D3C3000AEFEE /* SUOTAParamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOTAParamsViewController.m; sourceTree = "<group>"; };
+		14CFCBF1233388AE003AD7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DEF373219DBF171000AEFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEF376B19DD5B45000AEFEE /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEF374B19DBF171000AEFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2A5FCB1A10BE190001DCAA /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				0D2A5FCC1A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.h */,
+				0D2A5FCD1A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.m */,
+				0D2A5FCE1A10BE190001DCAA /* TPKeyboardAvoidingScrollView.h */,
+				0D2A5FCF1A10BE190001DCAA /* TPKeyboardAvoidingScrollView.m */,
+				0D2A5FD01A10BE190001DCAA /* TPKeyboardAvoidingTableView.h */,
+				0D2A5FD11A10BE190001DCAA /* TPKeyboardAvoidingTableView.m */,
+				0D2A5FD21A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				0D2A5FD31A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		0D67614A1D74833D00B66311 /* APLSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0D67614B1D74833D00B66311 /* APLSlideMenuSegue.h */,
+				0D67614C1D74833D00B66311 /* APLSlideMenuSegue.m */,
+				0D67614D1D74833D00B66311 /* APLSlideMenuViewController.h */,
+				0D67614E1D74833D00B66311 /* APLSlideMenuViewController.m */,
+			);
+			path = APLSlideMenu;
+			sourceTree = "<group>";
+		};
+		0D6761511D757CDB00B66311 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6BCDC1D79AE2500224D47 /* info.html */,
+				0DE6BCDE1D79AE8A00224D47 /* logo-dialog-blue.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		0DC2ADF919FAA46C00468070 /* ActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0DC2ADFA19FAA47700468070 /* AbstractActionSheetPicker.h */,
+				0DC2ADFB19FAA47700468070 /* AbstractActionSheetPicker.m */,
+				0DC2ADFC19FAA47700468070 /* ActionSheetCustomPicker.h */,
+				0DC2ADFD19FAA47700468070 /* ActionSheetCustomPicker.m */,
+				0DC2ADFE19FAA47700468070 /* ActionSheetCustomPickerDelegate.h */,
+				0DC2ADFF19FAA47700468070 /* ActionSheetDatePicker.h */,
+				0DC2AE0019FAA47700468070 /* ActionSheetDatePicker.m */,
+				0DC2AE0319FAA47700468070 /* ActionSheetLocalePicker.h */,
+				0DC2AE0419FAA47700468070 /* ActionSheetLocalePicker.m */,
+				0DC2AE0519FAA47700468070 /* ActionSheetStringPicker.h */,
+				0DC2AE0619FAA47700468070 /* ActionSheetStringPicker.m */,
+				0DC2AE0919FAA47700468070 /* SWActionSheet.h */,
+				0DC2AE0A19FAA47700468070 /* SWActionSheet.m */,
+			);
+			path = ActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		0DE6BCE81D79B3D300224D47 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6BCE91D79B3DF00224D47 /* LICENSE */,
+				0DE6BCEA1D79B3DF00224D47 /* MBProgressHUD.h */,
+				0DE6BCEB1D79B3DF00224D47 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		0DEF372C19DBF171000AEFEE = {
+			isa = PBXGroup;
+			children = (
+				0DEF376A19DD5B45000AEFEE /* CoreBluetooth.framework */,
+				0DEF373719DBF171000AEFEE /* SUOTA */,
+				0DEF375119DBF171000AEFEE /* SUOTATests */,
+				0DEF373619DBF171000AEFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DEF373619DBF171000AEFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DEF373519DBF171000AEFEE /* SUOTA.app */,
+				0DEF374E19DBF171000AEFEE /* SUOTATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DEF373719DBF171000AEFEE /* SUOTA */ = {
+			isa = PBXGroup;
+			children = (
+				0D6761511D757CDB00B66311 /* assets */,
+				0DEF378319DEF84F000AEFEE /* lib */,
+				0DEF374219DBF171000AEFEE /* Main.storyboard */,
+				14CFCBF0233388AE003AD7C7 /* LaunchScreen.storyboard */,
+				0DEF374519DBF171000AEFEE /* Images.xcassets */,
+				0DEF373819DBF171000AEFEE /* Supporting Files */,
+				0DEF376919DD536B000AEFEE /* Defines.h */,
+				0DEF373C19DBF171000AEFEE /* AppDelegate.h */,
+				0DEF373D19DBF171000AEFEE /* AppDelegate.m */,
+				0DE6BCEE1D79C19A00224D47 /* SplashViewController.h */,
+				0DE6BCEF1D79C19A00224D47 /* SplashViewController.m */,
+				0DE6BCD51D79A03C00224D47 /* DisclaimerViewController.h */,
+				0DE6BCD61D79A03C00224D47 /* DisclaimerViewController.m */,
+				0DE6BCD71D79A03C00224D47 /* InfoViewController.h */,
+				0DE6BCD81D79A03C00224D47 /* InfoViewController.m */,
+				0D6761631D75835900B66311 /* MainNavigationController.h */,
+				0D6761641D75835900B66311 /* MainNavigationController.m */,
+				0D67615D1D75815900B66311 /* MenuTableViewController.h */,
+				0D67615E1D75815900B66311 /* MenuTableViewController.m */,
+				0D67615F1D75815900B66311 /* MenuViewController.h */,
+				0D6761601D75815900B66311 /* MenuViewController.m */,
+				0DEF376019DBF732000AEFEE /* DeviceTableViewController.h */,
+				0DEF376119DBF732000AEFEE /* DeviceTableViewController.m */,
+				0D6761661D75880F00B66311 /* DeviceTableViewCell.h */,
+				0D6761671D75880F00B66311 /* DeviceTableViewCell.m */,
+				0D6761691D758BA200B66311 /* DeviceRangeView.h */,
+				0D67616A1D758BA200B66311 /* DeviceRangeView.m */,
+				0DEF377719DEA232000AEFEE /* DeviceViewController.h */,
+				0DEF377819DEA232000AEFEE /* DeviceViewController.m */,
+				0D5D214D19FFCC8F001ED9E9 /* DeviceInfoViewController.h */,
+				0D5D214E19FFCC8F001ED9E9 /* DeviceInfoViewController.m */,
+				0DEF376319DBF8C1000AEFEE /* FileTableViewController.h */,
+				0DEF376419DBF8C1000AEFEE /* FileTableViewController.m */,
+				0DA9CA921A07CF6500C51147 /* GenericParamsViewController.h */,
+				0DA9CA931A07CF6500C51147 /* GenericParamsViewController.m */,
+				0DCDAB4D1A433603009C38A8 /* GenericSUOTAViewController.h */,
+				0DCDAB4E1A433603009C38A8 /* GenericSUOTAViewController.m */,
+				0DEF37E119E7D3C3000AEFEE /* SUOTAParamsViewController.h */,
+				0DEF37E219E7D3C3000AEFEE /* SUOTAParamsViewController.m */,
+				0DEF376619DD45E1000AEFEE /* SUOTAViewController.h */,
+				0DEF376719DD45E1000AEFEE /* SUOTAViewController.m */,
+				0D41E2921A03C211005ABC38 /* SPOTAParamsViewController.h */,
+				0D41E2931A03C211005ABC38 /* SPOTAParamsViewController.m */,
+				0D41E28F1A03C1F8005ABC38 /* SPOTAViewController.h */,
+				0D41E2901A03C1F8005ABC38 /* SPOTAViewController.m */,
+			);
+			path = SUOTA;
+			sourceTree = "<group>";
+		};
+		0DEF373819DBF171000AEFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DEF373919DBF171000AEFEE /* Info.plist */,
+				0DEF373A19DBF171000AEFEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DEF375119DBF171000AEFEE /* SUOTATests */ = {
+			isa = PBXGroup;
+			children = (
+				0DEF375419DBF171000AEFEE /* SUOTATests.m */,
+				0DEF375219DBF171000AEFEE /* Supporting Files */,
+			);
+			path = SUOTATests;
+			sourceTree = "<group>";
+		};
+		0DEF375219DBF171000AEFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DEF375319DBF171000AEFEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DEF378319DEF84F000AEFEE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6BCE81D79B3D300224D47 /* MBProgressHUD */,
+				0D67614A1D74833D00B66311 /* APLSlideMenu */,
+				0D2A5FCB1A10BE190001DCAA /* TPKeyboardAvoiding */,
+				0DC2ADF919FAA46C00468070 /* ActionSheetPicker */,
+				0DEF376E19DE915E000AEFEE /* BluetoothManager.h */,
+				0DEF376F19DE915E000AEFEE /* BluetoothManager.m */,
+				0DEF377019DE915E000AEFEE /* GenericServiceManager.h */,
+				0DEF377119DE915E000AEFEE /* GenericServiceManager.m */,
+				0DEF377D19DEA790000AEFEE /* SUOTAServiceManager.h */,
+				0DEF377E19DEA790000AEFEE /* SUOTAServiceManager.m */,
+				0DEF377419DE9232000AEFEE /* DeviceStorage.h */,
+				0DEF377519DE9232000AEFEE /* DeviceStorage.m */,
+				0DEF378019DEF2C2000AEFEE /* ParameterStorage.h */,
+				0DEF378119DEF2C2000AEFEE /* ParameterStorage.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DEF373419DBF171000AEFEE /* SUOTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DEF375819DBF171000AEFEE /* Build configuration list for PBXNativeTarget "SUOTA" */;
+			buildPhases = (
+				0DEF373119DBF171000AEFEE /* Sources */,
+				0DEF373219DBF171000AEFEE /* Frameworks */,
+				0DEF373319DBF171000AEFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SUOTA;
+			productName = SUOTA;
+			productReference = 0DEF373519DBF171000AEFEE /* SUOTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DEF374D19DBF171000AEFEE /* SUOTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DEF375B19DBF171000AEFEE /* Build configuration list for PBXNativeTarget "SUOTATests" */;
+			buildPhases = (
+				0DEF374A19DBF171000AEFEE /* Sources */,
+				0DEF374B19DBF171000AEFEE /* Frameworks */,
+				0DEF374C19DBF171000AEFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DEF375019DBF171000AEFEE /* PBXTargetDependency */,
+			);
+			name = SUOTATests;
+			productName = SUOTATests;
+			productReference = 0DEF374E19DBF171000AEFEE /* SUOTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DEF372D19DBF171000AEFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Dialog Semiconductor";
+				TargetAttributes = {
+					0DEF373419DBF171000AEFEE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					0DEF374D19DBF171000AEFEE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0DEF373419DBF171000AEFEE;
+					};
+				};
+			};
+			buildConfigurationList = 0DEF373019DBF171000AEFEE /* Build configuration list for PBXProject "SUOTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DEF372C19DBF171000AEFEE;
+			productRefGroup = 0DEF373619DBF171000AEFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DEF373419DBF171000AEFEE /* SUOTA */,
+				0DEF374D19DBF171000AEFEE /* SUOTATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DEF373319DBF171000AEFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEF374419DBF171000AEFEE /* Main.storyboard in Resources */,
+				0DE6BCDF1D79AE8A00224D47 /* logo-dialog-blue.png in Resources */,
+				14CFCBF2233388AE003AD7C7 /* LaunchScreen.storyboard in Resources */,
+				0DEF374619DBF171000AEFEE /* Images.xcassets in Resources */,
+				0DE6BCDD1D79AE2500224D47 /* info.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEF374C19DBF171000AEFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DEF373119DBF171000AEFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2A5FD41A10BE190001DCAA /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				0D6761621D75815900B66311 /* MenuViewController.m in Sources */,
+				0DA9CA941A07CF6500C51147 /* GenericParamsViewController.m in Sources */,
+				0DE6BCF01D79C19A00224D47 /* SplashViewController.m in Sources */,
+				0DEF376819DD45E1000AEFEE /* SUOTAViewController.m in Sources */,
+				0D6761651D75835900B66311 /* MainNavigationController.m in Sources */,
+				0D41E2941A03C211005ABC38 /* SPOTAParamsViewController.m in Sources */,
+				0DEF377919DEA232000AEFEE /* DeviceViewController.m in Sources */,
+				0DE6BCED1D79B3DF00224D47 /* MBProgressHUD.m in Sources */,
+				0D41E2911A03C1F8005ABC38 /* SPOTAViewController.m in Sources */,
+				0DE6BCD91D79A03C00224D47 /* DisclaimerViewController.m in Sources */,
+				0DEF377F19DEA790000AEFEE /* SUOTAServiceManager.m in Sources */,
+				0DEF378219DEF2C2000AEFEE /* ParameterStorage.m in Sources */,
+				0D67614F1D74833D00B66311 /* APLSlideMenuSegue.m in Sources */,
+				0D6761611D75815900B66311 /* MenuTableViewController.m in Sources */,
+				0DEF37E319E7D3C3000AEFEE /* SUOTAParamsViewController.m in Sources */,
+				0DEF376219DBF732000AEFEE /* DeviceTableViewController.m in Sources */,
+				0DC2AE1019FAA47700468070 /* ActionSheetStringPicker.m in Sources */,
+				0D2A5FD51A10BE190001DCAA /* TPKeyboardAvoidingScrollView.m in Sources */,
+				0DE6BCDA1D79A03C00224D47 /* InfoViewController.m in Sources */,
+				0DC2AE0F19FAA47700468070 /* ActionSheetLocalePicker.m in Sources */,
+				0DC2AE0D19FAA47700468070 /* ActionSheetDatePicker.m in Sources */,
+				0DC2AE0C19FAA47700468070 /* ActionSheetCustomPicker.m in Sources */,
+				0D2A5FD71A10BE190001DCAA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				0D6761681D75880F00B66311 /* DeviceTableViewCell.m in Sources */,
+				0DEF373E19DBF171000AEFEE /* AppDelegate.m in Sources */,
+				0DEF373B19DBF171000AEFEE /* main.m in Sources */,
+				0DEF377219DE915E000AEFEE /* BluetoothManager.m in Sources */,
+				0DCDAB4F1A433603009C38A8 /* GenericSUOTAViewController.m in Sources */,
+				0DC2AE1219FAA47700468070 /* SWActionSheet.m in Sources */,
+				0D67616B1D758BA200B66311 /* DeviceRangeView.m in Sources */,
+				0D6761501D74833D00B66311 /* APLSlideMenuViewController.m in Sources */,
+				0D2A5FD61A10BE190001DCAA /* TPKeyboardAvoidingTableView.m in Sources */,
+				0DEF376519DBF8C1000AEFEE /* FileTableViewController.m in Sources */,
+				0D5D214F19FFCC8F001ED9E9 /* DeviceInfoViewController.m in Sources */,
+				0DEF377319DE915E000AEFEE /* GenericServiceManager.m in Sources */,
+				0DC2AE0B19FAA47700468070 /* AbstractActionSheetPicker.m in Sources */,
+				0DEF377619DE9232000AEFEE /* DeviceStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEF374A19DBF171000AEFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEF375519DBF171000AEFEE /* SUOTATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DEF375019DBF171000AEFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DEF373419DBF171000AEFEE /* SUOTA */;
+			targetProxy = 0DEF374F19DBF171000AEFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DEF374219DBF171000AEFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DEF374319DBF171000AEFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CFCBF0233388AE003AD7C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CFCBF1233388AE003AD7C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DEF375619DBF171000AEFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DEF375719DBF171000AEFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DEF375919DBF171000AEFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.200.14.22;
+				INFOPLIST_FILE = SUOTA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.200.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diasemi.suota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DEF375A19DBF171000AEFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.200.14.22;
+				INFOPLIST_FILE = SUOTA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.200.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diasemi.suota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DEF375C19DBF171000AEFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SUOTATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diasemi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUOTA.app/SUOTA";
+			};
+			name = Debug;
+		};
+		0DEF375D19DBF171000AEFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SUOTATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diasemi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUOTA.app/SUOTA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DEF373019DBF171000AEFEE /* Build configuration list for PBXProject "SUOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEF375619DBF171000AEFEE /* Debug */,
+				0DEF375719DBF171000AEFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DEF375819DBF171000AEFEE /* Build configuration list for PBXNativeTarget "SUOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEF375919DBF171000AEFEE /* Debug */,
+				0DEF375A19DBF171000AEFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DEF375B19DBF171000AEFEE /* Build configuration list for PBXNativeTarget "SUOTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEF375C19DBF171000AEFEE /* Debug */,
+				0DEF375D19DBF171000AEFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DEF372D19DBF171000AEFEE /* Project object */;
+}

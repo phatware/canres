@@ -1,0 +1,7 @@
+
+                   DA1469x - PRO Motherboard
+
+> gerber_2522-mb-pro_vc_(331-07-C)      : gerber files of DA1469x PRO-motherboard / 331-07-C
+> 2522-mb-pro_vc-PCB			: PDF layout  of DA1469x PRO-motherboard / 331-07-C
+> 2522-mb-pro_vc-SCH.pdf		: PDF Schematic of DA1469x PRO-motherboard / 331-07-C
+> BOM_2522-mb-pro_vc			: BOM of DA1469x PRO-motherboard / 331-07-C

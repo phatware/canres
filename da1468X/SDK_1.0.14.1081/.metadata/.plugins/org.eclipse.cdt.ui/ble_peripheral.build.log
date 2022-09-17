@@ -1,0 +1,14 @@
+11:51:38 **** Incremental Build of configuration DA14681-01-Debug_QSPI for project ble_peripheral ****
+make --silent all 
+Generate linker scripts.
+ 
+Invoking: Cross ARM GNU Print Size
+   text	   data	    bss	    dec	    hex	filename
+  90132	    100	  24552	 114784	  1c060	ble_peripheral.elf
+Finished building: ble_peripheral.siz
+ 
+Generate linker scripts.
+ 
+
+11:51:39 Build Finished. 0 errors, 0 warnings. (took 793ms)
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ggZ-vp-PSk"/>
+                        <viewControllerLayoutGuide type="bottom" id="7TJ-TK-Eii"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5MC-bA-4CY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-nF-Xdp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SUOTA" translatesAutoresizingMaskIntoConstraints="NO" id="5nd-Qa-5id">
+                                <rect key="frame" x="110" y="343.66666666666669" width="194" height="49"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loader_line" translatesAutoresizingMaskIntoConstraints="NO" id="xbC-Gk-mvG">
+                                <rect key="frame" x="56.666666666666657" y="531" width="301" height="5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poweredby" translatesAutoresizingMaskIntoConstraints="NO" id="u23-gL-UtZ">
+                                <rect key="frame" x="109" y="586" width="196.00000000000006" height="90"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SUOTA-emblem" translatesAutoresizingMaskIntoConstraints="NO" id="OhU-9D-UOX">
+                                <rect key="frame" x="131" y="146.66666666666666" width="152" height="136.99999999999997"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5nd-Qa-5id" firstAttribute="centerY" secondItem="5MC-bA-4CY" secondAttribute="centerY" id="6Qj-wm-yD2"/>
+                            <constraint firstItem="u23-gL-UtZ" firstAttribute="top" secondItem="xbC-Gk-mvG" secondAttribute="bottom" constant="50" id="7eT-Tk-OTT"/>
+                            <constraint firstItem="7TJ-TK-Eii" firstAttribute="top" secondItem="u23-gL-UtZ" secondAttribute="bottom" constant="60" id="8RP-gN-Fw3"/>
+                            <constraint firstItem="5nd-Qa-5id" firstAttribute="top" secondItem="OhU-9D-UOX" secondAttribute="bottom" constant="60" id="9Ek-HV-GRM"/>
+                            <constraint firstItem="OhU-9D-UOX" firstAttribute="centerX" secondItem="5MC-bA-4CY" secondAttribute="centerX" id="Crq-jR-DsI"/>
+                            <constraint firstItem="hhd-nF-Xdp" firstAttribute="top" secondItem="5MC-bA-4CY" secondAttribute="top" id="DVQ-lX-hWo"/>
+                            <constraint firstItem="hhd-nF-Xdp" firstAttribute="leading" secondItem="5MC-bA-4CY" secondAttribute="leading" id="Nfi-t6-vxY"/>
+                            <constraint firstAttribute="bottom" secondItem="hhd-nF-Xdp" secondAttribute="bottom" id="ah6-Mb-OD1"/>
+                            <constraint firstAttribute="trailing" secondItem="hhd-nF-Xdp" secondAttribute="trailing" id="eBR-9Z-4hd"/>
+                            <constraint firstItem="5nd-Qa-5id" firstAttribute="centerX" secondItem="5MC-bA-4CY" secondAttribute="centerX" id="fGC-uo-pgI"/>
+                            <constraint firstItem="u23-gL-UtZ" firstAttribute="centerX" secondItem="5MC-bA-4CY" secondAttribute="centerX" id="q8w-lb-lJm"/>
+                            <constraint firstItem="xbC-Gk-mvG" firstAttribute="centerX" secondItem="5MC-bA-4CY" secondAttribute="centerX" id="xfk-T4-khU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SUOTA" width="194" height="49"/>
+        <image name="SUOTA-emblem" width="152" height="137"/>
+        <image name="Splash" width="375" height="667"/>
+        <image name="loader_line" width="301" height="5"/>
+        <image name="poweredby" width="196" height="90"/>
+    </resources>
+</document>

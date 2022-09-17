@@ -1,0 +1,7 @@
+
+          DA14691 / DA14695 PRO daughterboard - 86 pins
+
+> gerber_2522-db-vfbga86_vD_(331-19-D) 	: gerber files of 2522-db-vfbga86_vD / 331-19-D
+> 2522-db-vfbga86_vD-PCB.pdf		: PDF layout  of 2522-db-vfbga86_vD / 331-19-D
+> 2522-db-vfbga86_vD-SCH.pdf		: PDF Schematic of 2522-db-vfbga86_vD / 331-19-D
+> 2522-db-vfbga86_vD-BOM		: BOM of 2522-db-vfbga86_vD / 331-19-D

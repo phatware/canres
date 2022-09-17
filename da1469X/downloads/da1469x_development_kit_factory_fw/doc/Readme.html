@@ -1,0 +1,124 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>DA1469x Restore Factory Firmware instructions &#8212; DA1469x Restore Factory Firmware instructions 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/lpccsdocs/includes/iframeResizer.contentWindow.min.js"></script>
+    <script type="text/javascript" src="_static/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="_static/myscript.js"></script>
+    <link rel="search" title="Search" href="search.html" />
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="#">DA1469x Restore Factory Firmware instructions</a> &#187;</li>
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+
+  <div class="section" id="da1469x-restore-factory-firmware-instructions">
+<span id="da1469x-restore-factory-firmware-instructions"></span><h1>DA1469x Restore Factory Firmware instructions<a class="headerlink" href="#da1469x-restore-factory-firmware-instructions" title="Permalink to this headline">¶</a></h1>
+<p>In order to restore the factory firmware you will need  the following items:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.dialog-semiconductor.com/product/da1469x_sdk_latest">DA1469x Software development Kit</a></li>
+<li><a class="reference external" href="https://www.segger.com/downloads/jlink/">JLink tool chain</a></li>
+</ul>
+<p>First start the JLink GBD server with the following options:</p>
+<ul class="simple">
+<li>Connection: USB</li>
+<li>Target Device: Cortex-M33</li>
+<li>interface: swd</li>
+</ul>
+<p><img alt="gdbserver" src="_images/markdown-img-paste-20190220114454754.png" width="250px" style="center;"/></p>
+<p>Please open a terminal and execute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">cd</span> <span class="o">&lt;</span><span class="n">SDKROOT</span><span class="o">&gt;/</span><span class="n">binaries</span>
+<span class="o">&gt;</span> <span class="o">./</span><span class="n">cli_programmer</span><span class="o">.</span><span class="n">exe</span> <span class="n">gdbserver</span> <span class="n">write_qspi</span> <span class="mh">0x0</span> <span class="o">&lt;</span><span class="n">path_to_binary</span><span class="o">&gt;/</span><span class="mi">69</span><span class="n">x_kit_factory_fw</span><span class="o">/.</span><span class="n">bin</span>
+</pre></div>
+</div>
+<p>You’re device is now back to its state out of Dialog’s production line.</p>
+<div class="section" id="license">
+<span id="license"></span><h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p>Copyright (c) 2019 Dialog Semiconductor. All rights reserved.</p>
+<p>This software (“Software”) is owned by Dialog Semiconductor. By using this Software
+you agree that Dialog Semiconductor retains all intellectual property and proprietary
+rights in and to this Software and any use, reproduction, disclosure or distribution
+of the Software without express written permission or a license agreement from Dialog
+Semiconductor is strictly prohibited. This Software is solely for use on or in
+conjunction with Dialog Semiconductor products.</p>
+<p>EXCEPT AS OTHERWISE PROVIDED IN A LICENSE AGREEMENT BETWEEN THE PARTIES OR AS
+REQUIRED BY LAW, THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. EXCEPT AS OTHERWISE PROVIDED
+IN A LICENSE AGREEMENT BETWEEN THE PARTIES OR BY LAW, IN NO EVENT SHALL DIALOG
+SEMICONDUCTOR BE LIABLE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE SOFTWARE.</p>
+<hr class="docutils" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/dslogoBlueSmall.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">DA1469x Restore Factory Firmware instructions</a><ul>
+<li><a class="reference internal" href="#license">License</a></li>
+</ul>
+</li>
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="#">DA1469x Restore Factory Firmware instructions</a> &#187;</li>
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Dialog Semiconductor.
+    </div>
+  </body>
+</html>

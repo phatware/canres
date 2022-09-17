@@ -1,0 +1,2 @@
+rootProject.name="SUOTA"
+include ':app'

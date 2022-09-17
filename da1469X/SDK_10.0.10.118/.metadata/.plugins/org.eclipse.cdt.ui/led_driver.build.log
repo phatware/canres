@@ -1,0 +1,14 @@
+22:47:59 **** Incremental Build of configuration DA1469x-00-Debug_RAM for project led_driver ****
+make --silent all 
+Generate linker scripts.
+ 
+Invoking: Cross ARM GNU Print Size
+   text	   data	    bss	    dec	    hex	filename
+  48604	    680	  18300	  67584	  10800	led_driver.elf
+Finished building: led_driver.siz
+ 
+Generate linker scripts.
+ 
+
+22:48:00 Build Finished. 0 errors, 0 warnings. (took 837ms)
+

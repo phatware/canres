@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2017 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<resources>
+
+    <string name="app_name">SUOTA</string>
+    <string name="dialog_semiconductor">Dialog Semiconductor</string>
+
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop_scan">Stop Scan</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_show_bonded_devices">Show Paired Devices</string>
+    <string name="menu_info">Information</string>
+
+    <string name="drawer_suota">SUOTA</string>
+    <string name="drawer_information">Information</string>
+    <string name="drawer_disclaimer">Disclaimer</string>
+    <string name="drawer_disconnect">Disconnect</string>
+
+    <string name="permission_rationale">SUOTA needs access to the device\'s storage in order to load firmware files and access to location information in order to scan for Bluetooth Smart devices.</string>
+    <string name="location_permission_rationale">Access to location information is required in order to scan for Bluetooth Smart devices.</string>
+    <string name="storage_permission_rationale">Access to the device\'s storage is required in order to load firmware files.</string>
+    <string name="storage_permission_denied_title">Permission Denied</string>
+    <string name="storage_permission_denied_msg">Storage permission was denied. This permission is required for the app to work properly. SUOTA will now exit.</string>
+    <string name="no_location_services_title">Location Services Disabled</string>
+    <string name="no_location_services_msg">It may be required to enable the Location Services on your device in order to scan for Bluetooth Smart devices.</string>
+    <string name="no_location_services_scan">Continue</string>
+    <string name="enable_location_services">Enable</string>
+    <string name="no_firmware_found">No firmware found. Add firmware files in folder \"Suota\" on the device\'s storage.</string>
+
+    <string name="allowed_hex_chars">0123456789abcdefABCDEFx</string>
+    <string name="button_text_color">#00BCF3</string>
+
+    <string name="app_devices_title">Device selection</string>
+    <string-array name="app_device_titles">
+        <item>Device info</item>
+        <item>File selection</item>
+        <item>Parameter settings</item>
+        <item>Uploading file</item>
+    </string-array>
+
+    <string name="dev_info_manufacturer">Manufacturer</string>
+    <string name="dev_info_model">Model number</string>
+    <string name="dev_info_firmware">Firmware revision</string>
+    <string name="dev_info_software">Software revision</string>
+
+    <string-array name="gpio_values">
+        <item>P0_0</item>
+        <item>P0_1</item>
+        <item>P0_2</item>
+        <item>P0_3</item>
+        <item>P0_4</item>
+        <item>P0_5</item>
+        <item>P0_6</item>
+        <item>P0_7</item>
+        <item>P0_8</item>
+        <item>P0_9</item>
+        <item>P0_10</item>
+        <item>P0_11</item>
+        <item>P1_0</item>
+        <item>P1_1</item>
+        <item>P1_2</item>
+        <item>P1_3</item>
+        <item>P2_0</item>
+        <item>P2_1</item>
+        <item>P2_2</item>
+        <item>P2_3</item>
+        <item>P2_4</item>
+        <item>P2_5</item>
+        <item>P2_6</item>
+        <item>P2_7</item>
+        <item>P2_8</item>
+        <item>P2_9</item>
+        <item>P3_0</item>
+        <item>P3_1</item>
+        <item>P3_2</item>
+        <item>P3_3</item>
+        <item>P3_4</item>
+        <item>P3_5</item>
+        <item>P3_6</item>
+        <item>P3_7</item>
+    </string-array>
+
+    <string-array name="image_bank_addresses">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
