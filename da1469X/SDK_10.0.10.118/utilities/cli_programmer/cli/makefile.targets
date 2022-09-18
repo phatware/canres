@@ -1,2 +1,0 @@
-.PHONY: main-build pre-build
-main-build : | pre-build
